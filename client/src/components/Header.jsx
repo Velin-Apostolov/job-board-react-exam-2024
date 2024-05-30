@@ -7,10 +7,10 @@ function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         {/* TODO: Import image as logo for JOBS BG, Navbar.Brand with HREF act as an <a> element */}
-        <Navbar.Brand href="/">JobsBG</Navbar.Brand>
+        <Navbar.Brand href="/">JobFind</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/offers">Job Offers</Nav.Link>
+            <Nav.Link href="/offers">Offers</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
           </Nav>
         </Navbar.Collapse>
