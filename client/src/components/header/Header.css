@@ -1,0 +1,33 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px;
+}
+
+h1 .home {
+    margin-right: auto;
+}
+
+#user, #guest {
+    display: flex;
+    align-items: center;
+}
+
+#user .nav-link, #guest .nav-link {
+    margin-left: 10px;
+}
+
+.home, .nav-link {
+    text-decoration: none;
+}
