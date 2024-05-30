@@ -30,4 +30,9 @@ h1 .home {
 
 .home, .nav-link {
     text-decoration: none;
+    outline: none;
+}
+
+.home {
+    font-size: 2em;
 }

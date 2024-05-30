@@ -9,7 +9,7 @@ function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container className='navbar-container'>
         {/* TODO: Import image as logo for JOBS BG, Navbar.Brand with HREF act as an <a> element */}
-        <h1><Link className='home' to='/'>JobFind</Link></h1>
+        <Link className='home' to='/'>JobFind</Link>
         <Nav className="me-auto navbar-nav">
           <Link to='/offers' className='nav-link'>Offers</Link>
           <div id='user'>
