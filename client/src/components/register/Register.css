@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+}
+
+.toggle-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.option-wrapper-user, .option-wrapper-company {
+    margin: 0;
+    padding: 0.5 em 1.5 em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.active {
+    background-color: #0A58CA;
+    color: white;
+  }
+  
+  .inactive {
+    background-color: #f0f0f0;
+    color: #333;
+  }
